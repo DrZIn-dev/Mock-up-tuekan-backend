@@ -1,0 +1,136 @@
+const storeProduct = [
+  {
+    id: 1,
+    tag: "Mathematic",
+    tagId: "0",
+    topic: "PAT 1",
+    location: "GOOGLE",
+    tutor: "Kanat Krub",
+    amount: "1",
+    full: "10",
+    date: "01/10/2020",
+    startTime: "09:30",
+    stopTime: "12:00",
+    price: "1200",
+    img: "img/product-1.png"
+  },
+  {
+    id: 2,
+    tag: "Science",
+    tagId: "1",
+    topic: "PAT 2",
+    location: "GOOGLE",
+    tutor: "Kanat Krub",
+    amount: "3",
+    full: "10",
+    date: "01/10/2020",
+    startTime: "09:30",
+    stopTime: "12:00",
+    price: "1000",
+    img: "img/product-2.png"
+  },
+  {
+    id: 3,
+    tag: "Thai",
+    tagId: "2",
+    topic: "9 วิชาสามัญ",
+    location: "GOOGLE",
+    tutor: "Kanat Krub",
+    amount: "4",
+    full: "10",
+    date: "01/10/2020",
+    startTime: "09:30",
+    stopTime: "12:00",
+    price: "500",
+    img: "img/product-3.png"
+  },
+  {
+    id: 4,
+    tag: "English",
+    tagId: "3",
+    topic: "9 วิชาสามัญ",
+    location: "GOOGLE",
+    tutor: "Kanat Krub",
+    amount: "1",
+    full: "10",
+    date: "01/10/2020",
+    startTime: "09:30",
+    stopTime: "12:00",
+    price: "120",
+    img: "img/product-4.png"
+  },
+  {
+    id: 5,
+    tag: "Social",
+    tagId: "4",
+    topic: "9 วิชาสามัญ",
+    location: "GOOGLE",
+    tutor: "Kanat Krub",
+    amount: "4",
+    full: "10",
+    date: "01/10/2020",
+
+    startTime: "09:30",
+    stopTime: "12:00",
+    price: "300",
+    img: "img/product-5.png"
+  },
+  {
+    id: 6,
+    tag: "Thai",
+    tagId: "3",
+    topic: "9 วิชาสามัญ",
+    location: "GOOGLE",
+    tutor: "Kanat Krub",
+    amount: "1",
+    full: "10",
+    date: "01/10/2020",
+    startTime: "09:30",
+    stopTime: "12:00",
+    price: "100",
+    img: "img/product-6.png"
+  },
+  {
+    id: 7,
+    tag: "Mathematic",
+    tagId: "0",
+    topic: "9 วิชาสามัญ",
+    location: "GOOGLE",
+    tutor: "Kanat Krub",
+    amount: "1",
+    full: "10",
+    date: "01/10/2020",
+    startTime: "09:30",
+    stopTime: "12:00",
+    price: "50",
+    img: "img/product-7.png"
+  },
+  {
+    id: 8,
+    tag: "English",
+    tagId: "3",
+    topic: "9 วิชาสามัญ",
+    location: "GOOGLE",
+    tutor: "Kanat Krub",
+    amount: "5",
+    full: "10",
+    date: "01/10/2020",
+    startTime: "09:30",
+    stopTime: "12:00",
+    price: "250",
+    img: "img/product-8.png"
+  }
+];
+
+const detailProduct = {
+  id: 1,
+  subject: "Google Pixel - Black",
+  img: "img/product-1.png",
+  topic: 10,
+  location: "GOOGLE",
+  amount: "1",
+  full: "10",
+  type: "Math"
+};
+
+module.exports = { detailProduct, storeProduct };
